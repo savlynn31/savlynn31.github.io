@@ -1,0 +1,220 @@
+/***************
+  	ANIMATIONS
+ ***************/
+
+@keyframes tilt {
+
+	25% {
+		transform: rotate(90deg);
+	}
+
+	50% {
+		transform: rotate(0);
+	}
+
+	75% {
+		transform: rotate(-90deg);
+	}
+
+	100% {
+		transform: rotate(0);
+
+	}
+}
+
+/***************
+  HEADER PIC
+ ***************/
+
+.desk {
+	width: 80%;
+	margin: 10px 10% 0 10%;
+	position: absolute;
+	z-index: -1;
+	border-radius: 10px;
+}
+
+/***************
+  	BIRDS
+ ***************/
+
+.contactbirds {
+	width: 80%;
+	margin: 300px 10% 0 10%;
+}
+
+/***************
+  	MAIN
+ ***************/
+
+.box {
+	width: 100%;
+	margin: 50px 0 0 0;
+	border-radius: 10px;
+	background: #fff;
+	border: 20px solid #def3e9;
+	padding: 5px;
+	box-sizing: border-box;
+}
+
+.box h1, .box h2{
+	text-align: center;
+}
+
+.box h2 {
+	font-weight: 300;
+	margin-bottom: 100px;
+}
+
+.box li {
+	width: 105%;
+	margin-left:-10%;
+	text-align: left;
+}
+
+.box img, .box .text {
+	display: inline-block;
+}
+
+.box img {
+	margin: -20px 0 -20px 0;
+}
+
+.box img:hover {
+	animation: tilt 1.5s ease-in-out backwards;
+	transform-origin: center;
+}
+
+.text {
+	margin-bottom: 70px;
+}
+
+.contactbirds2 {
+	width:80%;
+	margin: 40px 10% 0 10%;
+}
+
+@media (min-width: 550px) {
+
+	/***************
+  		BIRDS
+ 	***************/
+	.contactbirds {
+		margin-top: 375px;
+	}
+
+	/***************
+  		MAIN
+ 	***************/
+
+	.box {
+		padding: 10px;
+	}
+
+	.box img {
+		margin-right: 20px;
+	}
+
+	.box li {
+		margin-left: 0;
+		font-size: 1.2em;
+	}
+}
+
+@media (min-width: 768px) {
+
+
+	/***************
+  	  HEADER PIC
+ 	***************/
+
+	.desk {
+		margin-top: -5px;
+	}
+
+	/***************
+  		BIRDS
+ 	***************/
+
+	.contactbirds {
+		margin-top: 500px;
+	}
+
+	/***************
+  		MAIN
+ 	***************/
+
+	.box {
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+
+	.box li {
+		margin-left: 25%;
+	}
+
+	.box img {
+		margin-right: 40px;
+	}
+
+
+}
+
+@media (min-width:850px) {
+
+	.contactbirds {
+		margin-top: 600px;
+	}
+}
+
+@media (min-width: 950px) {
+
+	.contactbirds {
+		margin-top: 700px;
+	}
+}
+
+@media (min-width: 1024px) {
+
+	/***************
+  		HEADER PIC
+ 	***************/
+
+	.desk {
+		margin-top: 0;
+	}
+
+	/***************
+  		MAIN
+ 	***************/
+
+	h1 {
+		font-size: 2.5em;
+	}
+
+	h2 {
+		font-size: 2em;
+	}
+
+	.text {
+		font-size: 1.4em;
+	}
+
+}
+
+@media (min-width: 1200px) {
+
+	/***************
+  		BIRDS
+	 ***************/
+	.contactbirds {
+		margin-top: 800px;
+	}
+}
+
+@media (min-width: 1500px) {
+	.contactbirds {
+		margin-top: 1000px;
+	}
+}
