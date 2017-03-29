@@ -1,0 +1,72 @@
+.blogpost {
+	width: 80%;
+	border: 20px solid #def3e9;
+	background: #fff;
+	border-radius: 10px;
+	padding: 20px;
+	margin: 40px 10% 40px 10%;
+	box-sizing: border-box;
+	font-size: 1.3em;
+}
+
+.blogpost .date {
+	width: 70%;
+	margin: 40px 15% 40px 15%;
+}
+
+.blogpost, .blogpics {
+	display: inline-block;
+}
+
+.blogpics {
+	width: 80%;
+	margin: 0px 10% 40px 10%
+}
+
+.desktop {
+	width: 80%;
+	margin: 40px 10% 0 10%;
+}
+
+.tablet, .phone {
+	width: 40%;
+	display: inline-block;
+	margin: 40px 4% 0 4%;
+}
+
+.blogbirds {
+	width: 80%;
+	margin: 100px 10% 40px 10%;
+}
+
+@media (min-width: 768px) {
+
+	.blogcontainer {
+		display: flex;
+		width: 100%;
+	}
+	.blogpost, .blogpics {
+		flex-grow: 1;
+	}
+
+	.blogpost {
+		margin: 80px 0 40px 5%;
+		font-size: 1em;
+	}
+
+	.blogpics {
+		margin: 40px 0 0 1%;
+	}
+
+	.blogpost .date {
+		width: 40%;
+		margin: 20px 55% 10px 5%;
+	}
+}
+
+@media (min-width: 1024) {
+
+	.blogpost {
+		margin-top: -300px;
+	}
+}
