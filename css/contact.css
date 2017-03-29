@@ -26,12 +26,16 @@
   HEADER PIC
  ***************/
 
-.desk {
+.deskfull, .deskmobile {
 	width: 80%;
 	margin: 10px 10% 0 10%;
 	position: absolute;
 	z-index: -1;
 	border-radius: 10px;
+}
+
+.deskfull {
+	opacity: 0;
 }
 
 /***************
@@ -128,8 +132,13 @@
   	  HEADER PIC
  	***************/
 
-	.desk {
+	.deskfull {
 		margin-top: -5px;
+		opacity: 1;
+	}
+
+	.deskmobile {
+		opacity: 0;
 	}
 
 	/***************
@@ -137,7 +146,7 @@
  	***************/
 
 	.contactbirds {
-		margin-top: 500px;
+		margin-top: 300px;
 	}
 
 	/***************
@@ -164,14 +173,14 @@
 @media (min-width:850px) {
 
 	.contactbirds {
-		margin-top: 600px;
+		margin-top: 350px;
 	}
 }
 
 @media (min-width: 950px) {
 
 	.contactbirds {
-		margin-top: 700px;
+		margin-top: 400px;
 	}
 }
 
@@ -181,7 +190,7 @@
   		HEADER PIC
  	***************/
 
-	.desk {
+	.deskfull {
 		margin-top: 0;
 	}
 
@@ -209,12 +218,12 @@
   		BIRDS
 	 ***************/
 	.contactbirds {
-		margin-top: 800px;
+		margin-top: 450px;
 	}
 }
 
 @media (min-width: 1500px) {
 	.contactbirds {
-		margin-top: 1000px;
+		margin-top: 550px;
 	}
 }
