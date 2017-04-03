@@ -39,6 +39,15 @@
 	margin: 100px 10% 40px 10%;
 }
 
+.blogpost a{
+	color: #ccc9cb;
+	text-decoration: underline;
+}
+
+.blogpost a:hover {
+	color:#def3e9;
+}
+
 @media (min-width: 768px) {
 
 	.blogcontainer {
