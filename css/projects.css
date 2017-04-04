@@ -1,6 +1,6 @@
 #flickrbox {
-	width: 80%;
-	margin: 40px 10% 40px 10%;
+	width: 100%;
+	margin: 40px 0;
 	border: 20px solid #def3e9;
 	border-radius: 10px;
 	text-align: center;
@@ -16,11 +16,10 @@
 	font-size: 1.3em;
 	outline: none;
 	border: 2px solid #ccc9cb;
-	border-radius: 5px;
 	background: #fff;
 	height: 40px;
 	font-weight: 300;
-	width: 40%;
+	width: 100%;
 	padding-left: 10px;
 }
 
@@ -34,6 +33,7 @@
 	font-size: 1.2em;
 	border-radius: 5px;
 	outline: none;
+	margin-top: 10px;
 }
 
 #photos li {
@@ -45,7 +45,7 @@
 
 #photos {
 	width: 80%;
-	margin: 40px 10%;
+	margin: 40px 0%;
 }
 
 
@@ -70,14 +70,35 @@
 
 @media (min-width: 768px) {
 
+	#flickrbox {
+		width: 80%;
+		margin: 40px 10%;
+	}
+
 	.projectbirds {
 		margin-top: 300px;
+	}
+
+	input[type="submit"] {
+		margin-top: 0;
+	}
+
+	input[type="search"] {
+		width: 80%;
+	}
+
+	#photos {
+		margin: 40px 10%;
 	}
 }
 
 @media (min-width: 1024px) {
 	.projectbirds {
 		margin-top: 350px;
+	}
+
+	input[type="search"] {
+		border-radius: 5px;
 	}
 }
 

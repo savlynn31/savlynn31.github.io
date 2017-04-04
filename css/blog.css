@@ -1,10 +1,10 @@
 .blogpost {
-	width: 80%;
+	width: 100%;
 	border: 20px solid #def3e9;
 	background: #fff;
 	border-radius: 10px;
 	padding: 20px;
-	margin: 40px 10% 40px 10%;
+	margin: 40px 0;
 	box-sizing: border-box;
 	font-size: 1.3em;
 }
