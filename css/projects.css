@@ -19,7 +19,7 @@
 
 .codepen {
 	width: 100%;
-	margin-top: 50px;
+	margin-top: 40px;
 }
 
 .posttext h3 {
@@ -93,7 +93,6 @@
 	.projectbirds {
 		margin-top: 375px;
 	}
-
 }
 
 @media (min-width: 768px) {
@@ -117,7 +116,7 @@
 
 	.codepen {
 		flex-grow: 3;
-		margin-top:10px;
+		margin: 10px 0 0 20px;
 	}
 
 	.projectbirds {
