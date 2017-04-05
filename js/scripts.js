@@ -45,10 +45,10 @@
 
   }); /* end click*/
 
-
+/*
   /**********************
     Submit Contact Form
-  *********************/
+  ********************
 
 var $form = $('#ajax-contact');
 var formMessages = $('#form-messages');
@@ -59,30 +59,27 @@ $message.hide();
     var $formdata = $form.serialize();
     $.ajax({
       type: 'POST',
-      url: $form.attr('action')/*php mailer*/,
+      url: $form.attr('action')/*php mailer,
       data: $formdata,
     }.done(function(response) {
       $(formMessages).removeClass('error');
       $(formMessages).addClass('success');
       $(formMessages).text(response);
 
-     $form.hide(); /*hides the form*/
-     $(formMessages).show(); /*showes the message*/
+     $form.hide(); /*hides the form
+     $(formMessages).show(); /*showes the message
 
     }).fail(function(response) {
        $(formMessages).removeClass('success');
        $(formMessages).addClass('error');
         if (data.responseText !== '') {
-          $(formMessages).text(data.responseText); /*if AJAX gave an error, show it*/
+          $(formMessages).text(data.responseText); /*if AJAX gave an error, show it
         } else {
           $(formMessages).text('Oops! An error occured and your message could not be sent.'); 
         }
-        $form.hide(); /*hides the form*/
-        $(formMessages).show(); /*showes the message*/
-    }); /*end AJAX*/
+        $form.hide(); /*hides the form
+        $(formMessages).show(); /*showes the message
+    }); /*end AJAX
 
   }); /*End Form Submit*/
-
-
-
 
