@@ -1,3 +1,31 @@
+#postbox {
+	width: 100%;
+	border: 20px solid #def3e9;
+	border-radius: 10px;
+	padding: 20px;
+
+}
+
+.posttext {
+	width: 100%;
+	text-align: center;
+}
+
+.posttext li {
+	margin-top: 40px;
+	margin-left: -30px;
+}
+
+
+.codepen {
+	width: 100%;
+	margin-top: 50px;
+}
+
+.posttext h3 {
+	font-weight: 300;
+}
+
 #flickrbox {
 	width: 100%;
 	margin: 40px 0;
@@ -70,9 +98,26 @@
 
 @media (min-width: 768px) {
 
-	#flickrbox {
+	#flickrbox, #postbox {
 		width: 80%;
 		margin: 40px 10%;
+	}
+
+	#postbox {
+		display: flex;
+	}
+
+	.posttext {
+		flex-grow: 1;
+	}
+
+	.posttext li {
+		text-align: center;
+	}
+
+	.codepen {
+		flex-grow: 3;
+		margin-top:10px;
 	}
 
 	.projectbirds {
