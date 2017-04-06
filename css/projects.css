@@ -3,12 +3,17 @@
 	border: 20px solid #def3e9;
 	border-radius: 10px;
 	padding: 20px;
+	margin-top: 40px;
 
 }
 
 .posttext {
 	width: 100%;
 	text-align: center;
+}
+
+.posttext h3 {
+	font-weight: 300;
 }
 
 .posttext li {
@@ -34,14 +39,35 @@
 	color: #def3e9;
 }
 
-
-.codepen {
+.codepenBox {
 	width: 100%;
 	margin-top: 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
-.posttext h3 {
-	font-weight: 300;
+#codepenLive {
+	display: none;
+}
+
+#codepenLink {
+	font-size: 1.5em;
+	text-align: center;
+	margin-top: 20px;
+}
+
+#codepenLink img {
+	width: 40px;
+}
+
+#codepenLink:hover {
+	color: #def3e9;
+}
+
+#codepenLink:hover img {
+	transition: transform 1s ease-in-out;
+	transform: rotate3d(0, 0, 1, -360deg);
 }
 
 #flickrbox {
@@ -67,6 +93,8 @@
 	font-weight: 300;
 	width: 100%;
 	padding-left: 10px;
+	padding-bottom: 10px;
+	margin-top: 40px;
 }
 
 #flickrbox input[type="submit"] {
@@ -79,7 +107,8 @@
 	font-size: 1.2em;
 	border-radius: 5px;
 	outline: none;
-	margin-top: 10px;
+	margin: 40px auto;
+	padding: 5px 0;
 }
 
 #photos li {
@@ -111,6 +140,7 @@
 	.projectbirds {
 		margin-top: 375px;
 	}
+
 }
 
 @media (min-width: 768px) {
@@ -132,17 +162,18 @@
 		text-align: center;
 	}
 
-	.codepen {
+	.codepenBox {
 		flex-grow: 3;
 		margin: 10px 0 0 20px;
 	}
 
-	.projectbirds {
-		margin-top: 300px;
+	#codepenLive {
+		display: block;
 	}
 
-	input[type="submit"] {
-		margin-top: 0;
+
+	.projectbirds {
+		margin-top: 300px;
 	}
 
 	input[type="search"] {
