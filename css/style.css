@@ -38,6 +38,10 @@ div {
     box-sizing: border-box;
 }
 
+body {
+	background: #ffe7e1;
+}
+
 
 /***************
  	MEDIA LINKS
