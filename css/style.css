@@ -219,6 +219,7 @@ div {
 
 	 .logoheader {
  		display: none;
+ 		opacity: 0;
  	}
 
 	.media li {
