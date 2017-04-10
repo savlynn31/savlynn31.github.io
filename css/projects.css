@@ -1,6 +1,5 @@
 #postbox {
 	width: 100%;
-	border: 20px solid #def3e9;
 	border-radius: 10px;
 	padding: 20px 0;
 	margin-top: 40px;
@@ -165,6 +164,10 @@
 
 	#postbox .blogpics {
 		margin: 0 10%;
+	}
+
+	#postbox {
+		border: 20px solid #def3e9;
 	}
 }
 
