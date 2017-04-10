@@ -76,7 +76,7 @@
 
 .box li {
 	width: 105%;
-	margin-left:-10%;
+	margin-left:5%;
 	text-align: left;
 }
 
@@ -105,16 +105,6 @@
 /***************
   	FORM
  ***************/
-
- #form-messages {
- 	border: 20px solid #def3e9;
- 	text-align: center;
- 	width: 60%;
- 	margin: 40px 20%;
- 	border-radius: 10px;
- 	font-size: 2em;
- 	padding: 40px;
- }
 
  #form h1 {
  	text-align: center;
@@ -180,7 +170,7 @@ span {
   background: #aab6bd;
   left: 105%;
   top: 25px;
-  width: 160px;
+  width: 130px;
   padding: 7px 10px;
   color: #fff;
 }
@@ -243,7 +233,7 @@ span {
 	}
 
 	.box li {
-		margin-left: 0;
+		margin-left: 5%;
 		font-size: 1.2em;
 	}
 }
@@ -297,6 +287,7 @@ span {
 
 	span {
 		display: inline-block;
+		width: 160px;
 	}
 
 }
