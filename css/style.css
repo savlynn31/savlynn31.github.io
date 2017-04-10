@@ -46,6 +46,12 @@ div {
  	display: none;
  }
 
+ .logoheader {
+ 	text-align: center;
+ 	font-size: 4em;
+ 	padding: 10px;
+ }
+
 /***************
   		NAV
  ***************/
@@ -132,16 +138,20 @@ div {
 	width: 100%;
 	margin-top: 40px;
 	border-radius: 8px;
+	padding-top: 20px;
 }
 
-.pink {
+.green h3 {
 	background: #fff;
+	text-align: center;
+	border-radius: 7px;
+	width: 80%;
+	height: 70px;
+	margin: 20px 10% 0px 10%;
+	padding-top: 10px;
+	font-size: 3em;
 }
 
-.education {
-	width: 98%;
-	margin: 50px 1% 0 1%;
-}
 
 .book {
 	width: 15%;
@@ -155,50 +165,6 @@ div {
 
 .book1 {
 	margin-left: 15%;
-}
-
-.label {
-	width: 70%;
-	margin: 40px 15% 0 15%;
-}
-
-.light, .dark {
-	height: 100px;
-	border-radius: 7px;
-	font-size: 2em;
-	text-align: center;
-	padding-top: 30px;
-	margin-bottom: 20px;
-}
-
-.light {
-	background: #fdf1ee;
-}
-
-.dark {
-	background: #ffe7e1;
-}
-
-.name {
-	font-size: 1.2em;
-}
-
-
-.gray {
-	color: #fff;
-}
-/***************
- 	CAROUSELS
- **************/
-
-.slick-slider {
-	width:80%;
-	margin: 40px 10%;
-}
-
-.slick-prev:before,
-.slick-next:before {
-	color: gray;
 }
 
 .birds2 {
@@ -250,6 +216,10 @@ div {
 		float: right;
 		margin: 20px 50px 0 0;
 	}
+
+	 .logoheader {
+ 		display: none;
+ 	}
 
 	.media li {
 		display: inline-block;
@@ -344,19 +314,11 @@ div {
 		display: flex;
 	}
 
-	.label {
-	width: 70%;
-	margin: -10px 0% 0 20%;
-	}
-
 	.green {
-		width: 60%;
+		width: 70%;
+		margin: 0 15%;
 	}
 
-	.pink {
-		height: 800px;
-		width: 40%;
-	}
 
 	.book {
 		margin-right: -1%;
@@ -364,15 +326,6 @@ div {
 
 	.book1 {
 		margin-left: 13%;
-	}
-
-	/***************
- 		CAROUSELS
-	 **************/
-
-	.slick-slider {
-		width:80%;
-		margin: 40px 0% 40px 15%;
 	}
 
 }
@@ -405,13 +358,6 @@ div {
 	/***************
   		 MAIN
  	***************/
-	.green {
-		width: 50%;
-	}
-
-	.pink {
-		width: 50%;
-	}
 
 	.book {
 		width: 15%;
