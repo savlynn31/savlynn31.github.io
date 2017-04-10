@@ -136,7 +136,6 @@ div {
 
 .pink {
 	background: #fff;
-	width: 100%;
 }
 
 .education {
@@ -164,12 +163,12 @@ div {
 }
 
 .light, .dark {
-	height: 50px;
-	border-radius: 5px;
-	font-size: .7em;
+	height: 100px;
+	border-radius: 7px;
+	font-size: 2em;
 	text-align: center;
-	margin-right: 10px;
-	padding-top: 20px;
+	padding-top: 30px;
+	margin-bottom: 20px;
 }
 
 .light {
@@ -193,8 +192,8 @@ div {
  **************/
 
 .slick-slider {
-	width: 90%;
-	margin: 40px 40px 40px 10px;
+	width:80%;
+	margin: 40px 10%;
 }
 
 .slick-prev:before,
@@ -224,10 +223,6 @@ div {
 
 	.banner {
 		margin-top: 0;
-	}
-
-	.slick-slider {
-		margin: 40px;
 	}
 
 	.birds2 {
@@ -350,7 +345,8 @@ div {
 	}
 
 	.label {
-		margin-top: -10px;
+	width: 70%;
+	margin: -10px 0% 0 20%;
 	}
 
 	.green {
@@ -368,6 +364,15 @@ div {
 
 	.book1 {
 		margin-left: 13%;
+	}
+
+	/***************
+ 		CAROUSELS
+	 **************/
+
+	.slick-slider {
+		width:80%;
+		margin: 40px 0% 40px 15%;
 	}
 
 }
@@ -410,10 +415,6 @@ div {
 
 	.book {
 		width: 15%;
-	}
-
-	.light, .dark {
-		font-size: 1em;
 	}
 
 	.name {
