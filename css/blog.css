@@ -23,6 +23,7 @@
 	margin: 0px 10% 40px 10%
 }
 
+
 .desktop {
 	width: 80%;
 	margin: 40px 10% 0 10%;
@@ -65,6 +66,11 @@
 
 	.blogpics {
 		margin: 40px 0 0 1%;
+	}
+
+	.blogcontainer .codepenBox{
+	width: 90%;
+	margin: 0 5%;
 	}
 
 	.blogpost .date {
