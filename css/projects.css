@@ -150,28 +150,6 @@
 		margin: 40px 10%;
 	}
 
-	#postbox {
-		display: flex;
-	}
-
-	.posttext {
-		flex-grow: 1;
-	}
-
-	.posttext li {
-		text-align: center;
-	}
-
-	.codepenBox {
-		flex-grow: 3;
-		margin: 10px 0 0 20px;
-	}
-
-	#codepenLive {
-		display: block;
-	}
-
-
 	.projectbirds {
 		margin-top: 300px;
 	}
@@ -182,6 +160,10 @@
 
 	#photos {
 		margin: 40px 10%;
+	}
+
+	#postbox .blogpics {
+		margin: 0 10%;
 	}
 }
 
