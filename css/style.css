@@ -149,7 +149,7 @@ div {
 	height: 70px;
 	margin: 20px 10% 0px 10%;
 	padding: 10px;
-	font-size: 3em;
+	font-size: 2em;
 }
 
 
@@ -318,6 +318,10 @@ div {
 	.green {
 		width: 70%;
 		margin: 0 15%;
+	}
+
+	.green h3 {
+		font-size: 3em;
 	}
 
 
