@@ -169,6 +169,10 @@
 	#postbox {
 		border: 20px solid #def3e9;
 	}
+
+	.blogpics .codepenBox {
+		margin-top: 100px;
+	}
 }
 
 @media (min-width: 1024px) {
