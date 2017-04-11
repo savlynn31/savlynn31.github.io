@@ -312,11 +312,7 @@ div {
   	  	MAIN
  	***************/
 
-	.main {
-		display: flex;
-	}
-
-	.green {
+	.green, .about {
 		width: 70%;
 		margin: 0 15%;
 	}
@@ -333,6 +329,7 @@ div {
 	.book1 {
 		margin-left: 13%;
 	}
+
 
 }
 
@@ -373,6 +370,21 @@ div {
 		font-size: 1.5em;
 		margin-top: -10px;
 	}
+
+	.main {
+		display: flex;
+		justify-content: center;
+	}
+
+	.green, .about {
+		display: inline-block;
+		width: 45%;
+		margin: 4%;
+		flex-grow: 1;
+	}
+
+
+
 
 }
 
