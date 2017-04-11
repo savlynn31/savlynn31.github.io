@@ -8,8 +8,15 @@
 
 .posttext {
 	width: 100%;
-	text-align: center;
 	padding: 20px;
+}
+
+.posttext h1 {
+	text-align: center;
+}
+
+.posttext p {
+	padding: 0 40px;
 }
 
 .posttext h3 {
@@ -19,6 +26,7 @@
 .posttext li {
 	margin-top: 40px;
 	margin-left: -30px;
+	text-align: center;
 }
 
 .posttext img {
@@ -37,6 +45,12 @@
 
 .posttext a:hover {
 	color: #def3e9;
+}
+
+.city {
+	width: 80%;
+	display: inline-block;
+	margin: 40px 10%;
 }
 
 .codepenBox {
@@ -173,6 +187,12 @@
 	.blogpics .codepenBox {
 		margin-top: 100px;
 	}
+
+	.city {
+	width: 45%;
+	display: inline-block;
+	margin: 40px 2%;
+		}
 }
 
 @media (min-width: 1024px) {
